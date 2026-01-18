@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #0f172a;
+  --color-accent: #7c3aed;
+  --color-surface: #f8fafc;
+}
+
+body { background-color: var(--color-surface); }
+
+/* Student-y playful tweaks */
+.app-title { font-family: Inter, 'Segoe UI', system-ui, sans-serif; }
+.handwritten { font-family: 'Permanent Marker', 'Segoe UI', system-ui, sans-serif; }
+.cell-pill { padding: 4px 8px; border-radius: 9999px; font-weight: 600; font-size: 0.85rem; }
+.emoji { margin-right: 6px }
+.student-note { font-style: italic; color: #6b7280 }

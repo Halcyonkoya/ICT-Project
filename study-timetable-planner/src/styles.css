@@ -5,7 +5,7 @@
 :root {
   --color-primary: #0f172a;
   --color-accent: #7c3aed;
-  --color-surface: #f8fafc;
+  --color-surface: #f8fafc; 
 }
 
 body { background-color: var(--color-surface); }
